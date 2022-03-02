@@ -36,6 +36,9 @@ b.appendChild(main);
 let style = a.createElement('style');
 style.type = 'text/css';
 style.appendChild(a.createTextNode(`
-
+#mainDiv{
+	color: #0f0;
+	background-color: #00f;
+}
 `));
 c.appendChild(style);
