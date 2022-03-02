@@ -43,4 +43,3 @@ resize(get('mainDiv'));
 window.onresize = function() {
 	resize(get('mainDiv'));
 };
-//  (t=>{let e=document.createElement('script');e.src='';document.body.appendChild(e)})();
