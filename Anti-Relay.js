@@ -7,7 +7,7 @@ setInterval(function(){
 	} else {
 		a.title = 'Site is paused';
 	}
-}, 500);
+}, 100);
 b.innerHTML = '';
 c.innerHTML = '';
 let icon = a.createElement('link');
