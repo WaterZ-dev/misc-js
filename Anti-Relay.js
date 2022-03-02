@@ -39,6 +39,8 @@ style.appendChild(a.createTextNode(`
 #mainDiv{
 	color: #0f0;
 	background-color: #00f;
+	display: flex;
+	position: relative;
 }
 `));
 c.appendChild(style);
