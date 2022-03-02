@@ -1,4 +1,12 @@
 let a = document;
+a.innerHTML = `
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+`;
 let b = document.body;
 let c = document.head;
 function get(id){
@@ -39,6 +47,7 @@ c.appendChild(icon);
 let main = a.createElement('div');
 main.className = 'main';
 main.id = 'mainDiv';
+main.style.display = 'none';
 main.innerHTML = `
 `;
 b.appendChild(main);
