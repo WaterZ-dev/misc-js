@@ -1,4 +1,4 @@
-! function() {
+!function() {
     const e = document,
         t = document.head,
         n = document.body,
